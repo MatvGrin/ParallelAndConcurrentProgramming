@@ -1,0 +1,3 @@
+Starvation
+
+-A process or thread is perpetually denied the resources it needs

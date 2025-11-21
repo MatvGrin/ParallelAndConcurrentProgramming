@@ -1,0 +1,13 @@
+Synchronized Statement
+
+Specify the object to provide the intrinsic lock
+
+synchronized (object) {
+// protected code
+}
+
+Synchronized                                     Locks
+Easier to implement and                          Provide more flexibility
+prevents many pitfalls of locks                  to implement certain algorithms
+
+

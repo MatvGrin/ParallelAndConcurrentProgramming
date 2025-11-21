@@ -1,0 +1,11 @@
+Intrinsic Locks
+
+-Every Java object has an intrinsic lock associated with it
+-Synchronized method
+-Synchronized statement
+
+
+Synchronized Method
+
+-Add synchronized keyword to method declaration
+-Multiple invocations will not interleave

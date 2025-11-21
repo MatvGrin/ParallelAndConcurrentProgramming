@@ -1,0 +1,9 @@
+Deadlock
+-Each member is waiting for another member to take action
+
+Liveness
+-Properties that require a system to make progress
+-Members may have to "take turns" in critical sections
+
+Lock Ordering
+Ensure locks are always taken in the same order by any thread

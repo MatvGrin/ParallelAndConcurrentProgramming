@@ -1,0 +1,11 @@
+Data Race
+
+• Problem that occurs when...
+• Two or more concurrent threads access the same memory location
+• At least one thread is modifying it
+
+Detecting Data Races
+Hard to do
+
+Preventing Data Races
+Pay attention whenever two or more threads access the same resource

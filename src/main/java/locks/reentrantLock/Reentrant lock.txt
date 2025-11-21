@@ -1,0 +1,18 @@
+Deadlock
+
+-All processes and threads are unable to continue executing
+
+Reentrant Mutex
+-Can be locked multiple times by the same thread
+-Must be unlocked as many times as it was locked
+
+Common Terms
+-Reentrant mutex
+-Reentrant lock
+-Recursive mutex
+-Recursive lock
+
+Reentrant mutex – A mutex that allows the same thread to lock it multiple times without deadlocking.
+Reentrant lock – A lock implementation (like Java’s ReentrantLock) that is reentrant and allows repeated locking by the same thread.
+Recursive mutex – Another name for a reentrant mutex; the same thread can lock it multiple times during recursion.
+Recursive lock – A reentrant lock used specifically to support recursive or nested method calls that require the same lock.

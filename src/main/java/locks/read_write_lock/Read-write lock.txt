@@ -1,0 +1,17 @@
+Reader-Writer Lock
+
+SHARED READ - multiple threads at once
+Or
+EXCLUSIVE WRITE - only one thread at a time
+
+
+# Threads Reading    >    # Threads Writing
+# Threads Reading    >    # Threads Writing
+# Threads Reading    >    # Threads Writing
+
+ReadWriteLock Interface
+-Implemented by ReentrantReadWriteLock class
+
+ReadWriteLock Interface
+readLock() -> Lock
+writeLock() -> Lock

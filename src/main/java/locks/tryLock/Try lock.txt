@@ -1,0 +1,5 @@
+Try Lock
+
+-Non-blocking lock/acquire method for mutex
+-If the mutex is available, lock it and return TRUE
+-If the mutex is not available, immediately return FALSE

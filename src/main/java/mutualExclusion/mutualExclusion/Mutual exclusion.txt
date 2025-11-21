@@ -1,0 +1,20 @@
+Critical Section
+
+-Code segment that accesses a shared resource
+-Should not be executed by more than one thread or process at a time
+
+
+Mutex (Lock)
+
+-Mechanism to implement mutual exclusion
+-Only one thread or process can possess at a time
+-Limits access to critical section
+
+
+Atomic Operations
+
+-Execute as a single action, relative to other threads
+-Cannot be interrupted by other concurrent threads
+
+Acquiring a Lock
+-If lock is already taken, block/wait for it to be available

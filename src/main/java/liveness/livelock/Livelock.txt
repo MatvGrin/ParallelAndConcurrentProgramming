@@ -1,0 +1,4 @@
+Livelock
+
+-Multiple threads or processes are actively responding to each other to resolve conflict,
+but that prevents them from making progress;
