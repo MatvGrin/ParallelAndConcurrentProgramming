@@ -1,0 +1,8 @@
+Barrier
+-Prevents a group of threads from proceeding until enough threads have reached the barrier
+
+Other CyclicBarrier Methods
+int getParties () - Total number of threads. needed to trip barrier
+int getNumberWaiting () - Current number of threads waiting on barrier
+void reset() – Reset barrier to initial state
+boolean isBroken () - Has a thread broken out since last reset

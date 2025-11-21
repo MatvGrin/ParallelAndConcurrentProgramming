@@ -1,0 +1,5 @@
+Searching for Race Conditions
+-Use sleep statements to modify timing and execution order
+
+Heisenbug
+-A software bug that disappears when you try to study it

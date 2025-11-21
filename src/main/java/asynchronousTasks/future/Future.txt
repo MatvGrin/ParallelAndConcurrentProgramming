@@ -1,0 +1,17 @@
+Future:
+
+-Placeholder for a result that will be available later
+-Mechanism to access the result of an asynchronous operation
+
+
+
+
+Runnable Interface
+public interface Runnable {
+public void run();
+}
+
+Callable<V> Interface
+public interface Callable<V> {
+V call() throws Exception;
+}

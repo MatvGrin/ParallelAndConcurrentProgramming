@@ -1,0 +1,44 @@
+Semaphore:
+
+-Synchronization mechanism
+-Can be used by multiple threads at the same time
+-Includes a counter to track availability
+
+acquire()
+-If counter is positive, decrement counter
+-If counter is zero, wait until available
+
+release()
+-Increment counter
+-Signal waiting thread
+
+Counting Semaphore:
+-Value ≥ 0
+-Used to track limited resources
+ +Pool of connections
+
+Binary Semaphore:
+-Value = 1 or 0
+ +O represents locked
+ +1 represents unlocked
+-Used similar to mutex by acquiring/releasing
+
+Mutex vs. Semaphore:
+Mutex:
+-Can only be acquired/released by the same thread
+Semaphore:
+-Can be acquired/released by different threads
+
+
+Producer-Consumer Semaphore
+Buffer
+Producer
+1. Acquire emptyCount.
+2. Put item in buffer.
+3. Release fill Count.
+fillCount: 6
+emptyCount: 0
+Consumer
+1. Acquire fillCount.
+2. Remove item.
+3. Release emptyCount.

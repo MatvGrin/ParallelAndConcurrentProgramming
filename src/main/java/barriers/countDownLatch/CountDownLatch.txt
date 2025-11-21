@@ -1,0 +1,16 @@
+CountDownLatch:
+
+CountDownLatch(value) – Initialize count value
+await() - Wait for count value to reach zero
+countDown () - Decrement count value
+
+CyclicBarrier                                            |          CountDownLatch
+Releases when certain number of threads are waiting      |          Releases when count value reaches zero
+Can be reset                                             |          Cannot be reset
+
+Common CountDownLatch Usage
+• Initialize count to 1
+ + A simple on/off gate
+• Initialize count to N
+ + Wait for N threads to complete some action
+ + Wait for some action to complete N times

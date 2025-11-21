@@ -1,0 +1,21 @@
+Producer-Consumer Pattern
+-Producer(s)
+ +Add elements to shared data structure
+-Consumer(s)
+ +Remove elements from shared data structure
+
+
+First-In-First-Out (FIFO)
+-Items are removed in the same order that they're added to the queue
+-First item added will be the first item removed
+
+Synchronization Challenges:
+-Enforce mutual exclusion of producers and consumers
+-Prevent producers from trying to add data to a full queue
+-Prevent consumers from trying to remove data from an empty queue
+
+
+Average rate of production              <              Average rate of consumption
+Average rate of production              <              Average rate of consumption
+Average rate of production              <              Average rate of consumption
+

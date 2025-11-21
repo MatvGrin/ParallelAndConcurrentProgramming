@@ -1,0 +1,27 @@
+Condition Variable
+-Queue of threads waiting for a certain condition
+-Associated with a mutex
+
+
+Monitor
+-Protect section of code with mutual exclusion
+-Provide ability for threads to wait until a condition occurs
+
+Three Operations:
+-wait
+-signal
+-broadcast
+
+signal
+-Wake up one thread from condition variable queue
+-Also called notify or wake
+
+broadcast
+-Wake up all threads from condition variable queue
+-Also called notify all or wake all
+
+Shared Queue or Buffer
+-Mutex
+-Condition variables:
+ +BufferNotFull
+ +BufferNotEmpty
